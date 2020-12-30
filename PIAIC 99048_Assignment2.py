@@ -167,7 +167,7 @@ def function10():
     
     arr = np.array([[3,3,3],[4,4,4],[5,5,5]])
     brr = np.array([1,2,3])
-    subt = brr - arr# write your code here 
+    subt = arr - brr[:,None]# write your code here 
     
     return subt
 
@@ -341,6 +341,6 @@ def fucntion20():
     def xyz(x):
         return x*2+3-2
 
-    return x #Write your Code here
+    return x.abc(x) #Write your Code here
 #Expected Output: array([ 3,  5,  7,  9, 11, 13, 15, 17, 19, 21])
 #--------------------------X-----------------------------X-----------------------------X----------------------------X---------------------
